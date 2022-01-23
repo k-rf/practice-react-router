@@ -9,7 +9,7 @@ volumes:
     name: ${NODE_MODULES_VOLUME_NAME}
 
 services:
-  react:
+  practice_react_router:
     build:
       context: .
       args:

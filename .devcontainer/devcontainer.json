@@ -1,8 +1,8 @@
 {
-  "name": "react",
-  "remoteUser": "react",
+  "name": "practice_react_router",
+  "remoteUser": "practice_react_router",
   "dockerComposeFile": "./docker-compose.yaml",
-  "service": "react",
+  "service": "practice_react_router",
   "postCreateCommand": "yarn install",
   "workspaceFolder": "/workspaces",
   "overrideCommand": true,
