@@ -4,9 +4,12 @@
   "ignorePaths": ["/.devcontainer/", "/node_modules/"],
   "words": [
     "esbuild",
+    "headlessui",
+    "heroicons",
     "linebreak",
     "Parens",
     "Prettierrc",
+    "tailwindcss",
     "TTFB",
     "vite",
     "vitejs"

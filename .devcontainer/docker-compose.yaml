@@ -15,7 +15,7 @@ services:
       args:
         - USER=${REMOTE_USER}
         - WORKSPACES=${WORKSPACES}
-        - HOME=${HOME}
+        - HOME=${REMOTE_HOME}
     container_name: ${CONTAINER_NAME}
     working_dir: ${WORKSPACES}
     user: ${REMOTE_USER}
@@ -32,4 +32,4 @@ services:
         target: ${WORKSPACES}/node_modules
       - type: volume
         source: vscode_extensions
-        target: ${HOME}/.vscode-server/extensions
+        target: ${REMOTE_HOME}/.vscode-server/extensions
