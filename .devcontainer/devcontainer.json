@@ -17,7 +17,8 @@
     "kavod-io.vscode-jest-test-adapter",
     "irongeek.vscode-env",
     "streetsidesoftware.code-spell-checker",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "austenc.tailwind-docs"
   ],
   "settings": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
